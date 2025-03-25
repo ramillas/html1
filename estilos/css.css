@@ -1,0 +1,88 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('DALL·E\ 2025-01-21\ 13.41.41\ -\ A\ digital\ illustration\ divided\ into\ four\ sections\,\ each\ representing\ a\ phase\ of\ the\ system\ and\ network\ administrator\ cycle___1.\ __Planning\ &\ Design___.webp'); /* Aquí debes poner la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Cabecera */
+header {
+    position: relative;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.socials {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Contenedor de las secciones */
+.sections-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 200px; /* Espacio entre los círculos */
+    margin: 40px auto;
+    max-width: 700px;
+}
+
+/* Estilos para las secciones */
+section {
+    width: 200px; /* Tamaño del círculo */  
+    height: 200px; /* Tamaño del círculo */
+    border-radius: 50%; /* Círculo */
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #66e0ff 0%, #cfcfcf 50%, #66e0ff 100%); /* Degradado rojo, amarillo, rojo */
+    transition: background 0.3s;
+}
+
+/* Cambio de color al pasar el ratón */
+section:hover {
+    background: linear-gradient(to bottom, #000000 0%, #ff0000 50%, #000000 100%); /* Mantiene el degradado */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+}
